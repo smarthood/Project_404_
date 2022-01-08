@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">   
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<script src="script.js"></script>
+<title>project 404</title>
+</head>
+<body>
+  <div class="containment">
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="img/logo.png" alt="project 404">
+        </div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="projects.html">projects</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+        <div class="projects">
+          <div class="project" id="myBtn">
+           <img src="img/001.png" alt="app-logi">
+           <h2>Weather App</h2>
+          </div>
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Title: Weather App<br>Type: Web Application<br>Description: using this weather app you can see weather report of any place in all over the world. 🌈 </p>
+              <img src="img/A01.png" alt="sample">
+            </div>
+          
+          </div>
+          <div class="project">
+            <span>Hello</span>
+           </div>
+           <div class="project">
+            <span>Hello</span>
+           </div>
+           <div class="project">
+            <span>Hello</span>
+           </div>
+           <div class="projectl">
+            <span>.</span>
+           </div>
+        </div>          
+      <footer>
+        <h3>Support us by:</h3>
+        <center>
+        <a href="https://www.buymeacoffee.com/smartdickson" target="blank">
+        <img src="buy.svg" alt="Buy me a coffee"></a>
+        </center>
+</footer>
+</div>
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+</body>
+</html>
