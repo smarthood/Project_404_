@@ -43,13 +43,7 @@ body{
     margin-top:200px;
     margin-bottom:20px;
   }
-  .bar:hover{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-  }
-  .bar:focus-within{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline:none;
-  }
+
   .searchbar{
     height: 45px;
     border-radius:50px;
