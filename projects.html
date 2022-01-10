@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">   
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 <script src="script.js"></script>
@@ -38,63 +37,67 @@
       </nav>
         <div class="projects">
           <!-- first project -->
-          <div class="project" id="myBtn">
+          <div class="project" id="myBtn0">
            <img src="img/001.png" alt="app-logi">
            <h2>Weather App</h2>
           </div>
-          <div id="myModal" class="modal">
+          <div id="myModal0" class="modal">
 
             <!-- Modal content -->
             <div class="modal-content">
-              <span class="close">&times;</span>
+              <span class="close0">&times;</span>
               <p>Title: Weather App<br>Type: Web Application<br>Description: using this weather app you can see weather report of any place in all over the world. 🌈 </p>
-              <img src="img/A01.png" alt="sample">
-              <center><a href="contact.html"><button>Contact us</button></a></center>
+            
+              <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/66CeTNXA8XM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br><a href="contact.html"><button>Contact us</button></a></center>
             </div>
           </div>
           <!-- Second project -->
-          <div class="project" id="myBtn">
+          <div class="project" id="myBtn1">
             <img src="img/002.png" alt="app-logi">
             <h2>Dictionary App</h2>
            </div>
-           <div id="myModal" class="modal">
+           <div id="myModal1" class="modal">
  
              <!-- Modal content -->
              <div class="modal-content">
-               <span class="close">&times;</span>
-               <p>Title: Weather App<br>Type: Web Application<br>Description: using this weather app you can see weather report of any place in all over the world. 🌈 </p>
-               <img src="img/A01.png" alt="sample">
+               <span class="close1">&times;</span>
+               <p>Title: Dictionary App<br>Type: Web Application & Mobile App<br>Description: using this app you can see a meaning for any words,<br>you don't have to carry a pocket dictionary🔖 </p>
+               <center><iframe width="560" height="315" src="https://www.youtube.com/embed/il5xOQB9ptg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
                <center><a href="contact.html"><button>Contact us</button></a></center>
              </div>
            </div>
            <!-- Third project -->
-           <div class="project" id="myBtn">
+           <div class="project" id="myBtn2">
            <img src="img/003.png" alt="app-logi">
            <h2>Drowsiness Detector App</h2>
           </div>
-          <div id="myModal" class="modal">
+          <div id="myModal2" class="modal">
 
             <!-- Modal content -->
             <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>Title: Weather App<br>Type: Web Application<br>Description: using this weather app you can see weather report of any place in all over the world. 🌈 </p>
-              <img src="img/A01.png" alt="sample">
+              <span class="close2">&times;</span>
+              <p>Title: Drowsiness Detector App<br>Type: Web Application<br>Description: This application is very useful and good scope of project .It detect a man sleep or not using its own A.I technology😴 .</p>
+              <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fijcrt.org%2Fpapers%2FIJCRT2007200.pdf&psig=AOvVaw2xcmnwE_bdMd_bzu8ehjvV&ust=1641897192199000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjQt-j9pvUCFQAAAAAdAAAAABAJ" alt="sample">
               <center><a href="contact.html"><button>Contact us</button></a></center>
             </div>
           </div>
           <!-- fourth project -->
-          <div class="project" id="myBtn">
+          <div class="project" id="myBtn3">
             <img src="img/004.png" alt="app-logi">
             <h2>Text to Speech App</h2>
            </div>
-           <div id="myModal" class="modal">
+           <div id="myModal3" class="modal">
  
              <!-- Modal content -->
              <div class="modal-content">
-               <span class="close">&times;</span>
-               <p>Title: Weather App<br>Type: Web Application<br>Description: using this weather app you can see weather report of any place in all over the world. 🌈 </p>
-               <img src="img/A01.png" alt="sample">
-               <center><a href="contact.html"><button>Contact us</button></a></center>
+               <span class="close3">&times;</span>
+               <p>Title: Text to Speech App<br>Type: Web Application<br>Description: Convert your Text into speech using smart TTs engine 🔈 . </p>
+               
+               <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/URRul6RH8eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <br><a href="contact.html"><button>Contact us</button></a></center>
              </div>
            </div>
            <!-- Base -->
@@ -110,32 +113,6 @@
         </center>
 </footer>
 </div>
-<script>
-  // Get the modal
-  var modal = document.getElementById("myModal");
-  
-  // Get the button that opens the modal
-  var btn = document.getElementById("myBtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  </script>
+<script src="script.js"></script>
 </body>
 </html>
