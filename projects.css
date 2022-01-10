@@ -469,3 +469,10 @@ footer img{
     color: rgb(2, 39, 39);
     font-size: 15px;
   }
+  button{
+    height: 25px;
+    width: 80px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    border-style: none;
+  }
