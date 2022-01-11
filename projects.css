@@ -449,7 +449,7 @@ h1{
 
 /* The Close Button */
 .close1 {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -462,7 +462,7 @@ h1{
   cursor: pointer;
 }
 .close0 {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -475,7 +475,7 @@ h1{
   cursor: pointer;
 }
 .close2 {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -488,7 +488,7 @@ h1{
   cursor: pointer;
 }
 .close3 {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -501,7 +501,7 @@ h1{
   cursor: pointer;
 }
 .close4 {
-  color: #aaaaaa;
+  color: #000;
   float: right;
   font-size: 28px;
   font-weight: bold;
